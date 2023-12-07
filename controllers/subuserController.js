@@ -22,7 +22,7 @@ class subuserController {
             }
         }
 
-        return res.json(users)
+        return res.json(users.flat())
     }
 }
 
